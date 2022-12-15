@@ -1,0 +1,67 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+/* body{
+    background-image: url(https://images.unsplash.com/photo-1535653750320-f9e7e6ae3967?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYWluJTIwc3RhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    object-fit: cover;
+} */
+header {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+header h1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section h2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 50px;
+
+}
+section .all-btn{
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    
+    
+
+}
+
+section .all-btn #increment-btn {
+    margin: 30px;
+    font-size: 20px;
+    background-color: green;
+    color: azure;
+}
+section .all-btn #decrement-btn {
+    margin: 30px;
+    font-size: 20px;
+    background-color: red;
+    color: azure;
+}
+section .all-btn #save-btn {
+    margin: 30px;
+    font-size: 20px;
+    background-color: blue;
+    color: azure;
+}
+
+footer #save-el{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
